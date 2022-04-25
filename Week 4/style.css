@@ -1,0 +1,163 @@
+.box-1
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 0;
+    border: 1px solid;
+    padding: 15px 20px;
+    word-spacing: 1em;
+    letter-spacing: 0.01em;
+}
+
+.box-18
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border: 1px solid;
+    padding: 15px 20px;
+    word-spacing: 1em;
+    letter-spacing: 0.01em;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+.box-8
+{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    border: 1px solid;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    word-spacing: 1em;
+    letter-spacing: 0.01em;
+    border-radius: 55px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+}
+
+.box-9
+{
+    text-align: center;
+}
+
+.em
+{
+    vertical-align: center;
+}
+
+.box-2
+{
+    text-align: center;
+    line-height: 0.7em;
+}
+
+.box-3
+{
+    font-family: 'Times New Roman', Times, serif;    
+    font-size: 10;
+    font-style: normal;
+    text-align: center;
+    line-height: 0.7em;
+}
+
+.box-4
+{   
+    text-align: center;
+    line-height: 0.7em;
+}
+
+.box-5
+{   
+    text-align: center;
+}
+
+.box-6
+{   
+  margin: auto;
+  width: 65%; 
+  border-top: 1px grey solid;
+}
+
+.box-6 h3
+{
+    text-align: center;
+    padding: 0.1px; 
+}
+
+.block
+{   
+    float: left;
+    margin: 10px 0;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 47%;
+    border: 0 white;
+    padding: 80px 20px;
+    border-spacing: 15px;
+}
+
+.list ul
+{   
+    padding-left: 20px;
+    width: 99%;
+    border: 0 grey solid;
+    list-style: none;
+    vertical-align: center;
+    background-color:lightgrey;
+    color: black;
+    margin: 0px;
+    padding: 15px 20px;
+    padding-left: 25px;
+}
+
+.box-7
+{   
+    padding-left: 20px;
+    width: 99%;
+    border: 0 grey solid;
+    list-style: none;
+    vertical-align: center;
+    background-color:lightgrey;
+    color: black;
+    margin: auto;
+    padding: 50px 20px;
+    padding-left: 25px;
+}
+
+.box-10
+{
+    text-align: left
+}
+
+.form
+{
+    padding: 20px;
+}
+
+.form label
+{
+    display: block;
+}
+
+.form input [type = "text"], form textarea
+{
+    padding: 8px;
+    width: 100%;
+}
+
+.form input [type="Submit"]
+{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
