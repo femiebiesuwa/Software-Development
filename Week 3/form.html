@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>TechTalent Academy Coding Festival</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" href="./css/checkbox.css">
+    </head>
+      
+    <body>
+        <! -- This section uses the header element tag to give title to the web page -- >
+        <header>
+          <h2>Good Vibes Form</h2>
+        </header>
+
+      <p>Tell us something positive that happened to you today.</p>
+    
+     <form action="google" method="POST">
+        <! -- This section uses the POST method to post information to the web page -- >
+
+            <div> 
+            <label for="name">Name</label>
+            <input type="text" name="Enter your name" id="name">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="text" name="Enter your email address" id="Email">  
+            </div>
+
+            <div>
+                <label for="Scale">On a scale of 1-10, how good was it?</label>
+                <input type="text" name="Enter a number between 1 and 10" id="Scale">  
+            </div>
+    
+            <div>
+                <label for="Place">Where did it happen?</label>
+                <select name="Place" id="Place">
+                <option value="At home">At home</option>
+                <option value="At work">At work</option>
+                <option value="At shop">At shop</option>
+            </div><br>
+
+            <div>
+                <label for="radio">At what time of day did it happen?</label>
+                <input type="radio" value="Morning">
+                Morning <br>
+                <input type="radio" value="Afternoon">
+                Afternoon <br>
+                <input type="radio", value="Evening">
+                Evening 
+            </div>
+
+            <div>
+                <label for="Scale">What emotions did you experience?</label>
+                <input type="checkbox" value="Excited">
+                Excited
+        
+                <label for="Scale"></label>
+                <input type="checkbox" value="Humbled">
+                Humbled <br>
+
+                <label for="Scale"></label>
+                <input type="checkbox" value="Elated">
+                Elated <br>
+        
+                <label for="Scale"></label>
+                <input type="checkbox" value="Loved"> 
+                Loved <br>
+
+                <label for="Scale"></label>
+                <input type="checkbox" value="Enthusiastic">
+                Enthusiastic 
+            </div>
+            <div> 
+                <label for="Description of experience">Please describe your positive expeience</label>
+                <input type="textarea" name="Description of experience" id="Description of experience" value="Enter your experience here...">
+            </div>
+
+            <label for="Submit"></label>
+            <input type="Submit", value="Submit">
+        </form>
+  </body>
+</html>
+
