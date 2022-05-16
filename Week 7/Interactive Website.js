@@ -1,4 +1,4 @@
-// Changing the colour one of the text which made up of the body of the website
+// Changing the colour one of the text which made up the body of the website
 function change_text(){
   let element = document.getElementById("paragraph_1");
 
@@ -18,7 +18,7 @@ function change_background(){
   }
 }
 
-// Changing of text and the background colour of the website
+// Displaying the interactiveness of the website through the submission of form
 function change_text(){}
 function change_background(){}
 function submit_form(){
@@ -29,7 +29,7 @@ function submit_form(){
   window.alert(`Hello" ${fname.value} ${surname.value}. The ${"title"} of your blog was really nice`);
 }
 
-// Reading a file to the webpage using the body onload = "myFunction()"
+// Reading a file to the webpage using the body <onload = "myFunction()">
 function pickAndReadFile(callback) {
     var el = document.createElement('input');
     el.setAttribute('type', 'file');
